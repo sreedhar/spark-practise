@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spark-java/spark-java.iml" filepath="$PROJECT_DIR$/spark-java/spark-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark-java-practise/spark-java-practise.iml" filepath="$PROJECT_DIR$/spark-java-practise/spark-java-practise.iml" />
+    </modules>
+  </component>
+</project>
