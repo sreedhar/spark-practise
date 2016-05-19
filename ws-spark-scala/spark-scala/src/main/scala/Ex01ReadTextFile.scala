@@ -8,7 +8,7 @@ object Ex01ReadTextFile extends App{
   conf.setAppName("Spark-Hello-World")
   conf.setMaster("local")
   val sc = new SparkContext(conf);
-  val rdd = sc.textFile(ModuleEnv.DATA_ROOT+ "\\ml-latest-small\\movies.csv")
+  val rdd = sc.textFile(ModuleEnv.FILE_MOVIES)
 
   rdd.take(10).foreach(println)
 }
