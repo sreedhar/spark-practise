@@ -9,11 +9,11 @@ public class Ex01ReadTextFile {
     public static void main(String[] args){
 
         SparkConf conf = new SparkConf();
-        conf.setAppName("Application Ex01ReadTextFile");
+        conf.setAppName("Spark-Hello-World");
         conf.setMaster("local");
         JavaSparkContext sc = new JavaSparkContext(conf);
         JavaRDD<String> rdd =
-                sc.textFile(ModuleEnv.DATA_ROOT +"\\ml-latest-small\\movies.csv");
+                sc.textFile(ModuleEnv.FILE_MOVIES);
 
         rdd.take(10).forEach(line -> System.out.println(line));
     }

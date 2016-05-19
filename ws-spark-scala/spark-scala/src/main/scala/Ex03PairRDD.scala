@@ -54,3 +54,5 @@ object Ex03PairRDD extends App {
     }.reverse
   }).foreach(println)
 }
+
+
