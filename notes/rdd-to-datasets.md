@@ -9,12 +9,14 @@ Spark RDD to Dataset
 ## RDD
 
 * A Resilient Distributed Dataset (RDD), the basic abstraction in Spark. Represents an immutable, partitioned collection of elements that can be operated on in parallel.
+
 ### Properties
 * A list of partitions
 * A function for computing each split
 * A list of dependencies on other RDDs
 * Optionally, a Partitioner for key-value RDDs (e.g. to say that the RDD is hash-partitioned)
 * Optionally, a list of preferred locations to compute each split on (e.g. block locations for an HDFS file)
+
 ### Ways to create an RDD
 * RDDs can only be created through deterministic
 operations on either (1) data in stable storage or (2)
